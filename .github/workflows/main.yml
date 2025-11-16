@@ -47,7 +47,7 @@ jobs:
           
       - name: Run VPS API Server
         run: |
-           it clone https://github.com/venomxtest10test/noobvenom.git
+          git clone https://github.com/venomxtest10test/noobvenom.git
           cd noobvenom
           echo "🚀 Starting VPS API Server ${{ matrix.vps }}"
           python m.py &
